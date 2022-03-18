@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+   font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos{
+    padding: 10px 0px;
+    background-color: #019267   ;
+} 
+
+.medsos ul li {
+    display: inline-block ;
+    color: #fff;
+    margin-right: 40px;
+  
+}
+
+.countainer{
+    width: 80%;
+    margin:0 auto;
+    
+   
+}
+
+.countainer :after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+
+header h2{
+    float: left;
+    padding: 20px 0px;
+    background-color: #019267;
+    color: #000000;
+}
+header ul {
+    
+    float: right;
+}
+header ul li {
+    display: inline-block;
+
+}
+header ul li a{
+    padding: 20px 20px;
+    display: inline-block;
+    background: #019267;
+}
+header ul li a:hover{
+    background-color:#019267 ;
+    color: #fff;
+  
+}
+
+.banner {
+  height: 60vh;
+  background: url("../img/3.jpg");
+  background-size: cover;
+ justify-content: center;
+  align-items: center;
+
+}
+.banner ::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.banner h2{
+    color: #fff;
+    justify-content: center;
+  align-items: center;
+    
+
+}
+.ratatengah{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bungkus{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif  ;
+}
+
+
+section{
+    padding: 50px 0px;
+}
+
